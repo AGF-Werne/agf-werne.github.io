@@ -1,0 +1,15 @@
+/* TEAM */
+Developer: Danilo Klose
+Site: http://agf-werne.de
+Location: Werne an der Lippe, Germany
+
+/* THANKS */
+Name: Ulla Rinnen
+
+/* SITE */
+Last update: 2018
+Standards: HTML5, CSS3
+Software: Git, Pug, Gulp, Sublime
+
+/* SOURCE */
+Source: https://github.com/AGF-Werne/agf-werne.de

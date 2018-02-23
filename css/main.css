@@ -1,0 +1,126 @@
+.c-facebook {
+  color: #3b5998;
+}
+.c-about {
+  color: #fc5c65;
+}
+.bg-projects {
+  background: #45aaf2;
+}
+.bg-about {
+  background: #f7b731;
+}
+.bg-infos {
+  background: #fc5c65;
+}
+.bg-contact {
+  background: #2bcbba;
+}
+.bg-footer {
+  background: #4b6584;
+}
+.header .agf-logo a .image {
+  height: 40px;
+}
+.mosaic-nav {
+  position: relative;
+  width: 100%;
+}
+.mosaic-nav .mosaic-nav-background {
+  height: 300px;
+  width: 100%;
+  background-image: url("../img/background-werne-xl.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+.mosaic-nav .mosaic-nav-fields {
+  height: 300px;
+  width: 100%;
+  z-index: 1000;
+}
+.mosaic-nav .mosaic-nav-fields a {
+  text-decoration: none;
+}
+.mosaic-nav .mosaic-nav-fields aside {
+  width: 50%;
+}
+.mosaic-nav .mosaic-nav-fields .button {
+  padding: 40px 0 0 45px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 40px;
+  z-index: 1001;
+}
+.mosaic-nav .mosaic-nav-fields .button .caption {
+  z-index: 1002;
+  padding: 0 15px 0 15px;
+}
+.mosaic-nav .mosaic-nav-fields .button.bottom {
+  border-top: 1px solid #fff;
+}
+.mosaic-nav .mosaic-nav-fields .button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.mosaic-nav .mosaic-nav-fields .button:hover .bg-projects {
+  background: #2d98da;
+}
+.mosaic-nav .mosaic-nav-fields .button:hover .bg-about {
+  background: #fed330;
+}
+.mosaic-nav .mosaic-nav-fields .button:hover .bg-infos {
+  background: #eb3b5a;
+}
+.mosaic-nav .mosaic-nav-fields .button:hover .bg-contact {
+  background: #0fb9b1;
+}
+.mosaic-nav .mosaic-nav-fields .left {
+  height: 100%;
+}
+.mosaic-nav .mosaic-nav-fields .left .button.top {
+  height: 50%;
+}
+.mosaic-nav .mosaic-nav-fields .left .button.bottom {
+  height: 50%;
+}
+.mosaic-nav .mosaic-nav-fields .right {
+  height: 100%;
+  border-left: 1px solid #fff;
+}
+.mosaic-nav .mosaic-nav-fields .right .button.top {
+  height: 70%;
+}
+.mosaic-nav .mosaic-nav-fields .right .button.bottom {
+  padding: 16px 0 0 45px;
+  height: 30%;
+}
+.content {
+  margin-top: 30px;
+}
+.footer .copyright a {
+  color: #f7b731;
+}
+.footer .links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.jumbotron-with-bg {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.jumbotron-with-bg a {
+  color: white;
+}
+.jumbotron-with-bg .container {
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.jumbotron-with-bg .breadcrumb {
+  background-color: transparent;
+}
