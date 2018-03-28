@@ -16,11 +16,44 @@
 .bg-contact {
   background: #2bcbba;
 }
+.bg-header {
+  background: #fed330;
+}
+.bg-footer--pre {
+  background: #778ca3;
+}
 .bg-footer {
   background: #4b6584;
 }
-.header .agf-logo a .image {
-  height: 40px;
+.header {
+  background-image: url("../img/background-werne-xl.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.header .logo--cropper {
+  width: 110px;
+  height: 110px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+}
+.header .logo--cropper img {
+  display: inline;
+  margin: 22px auto 0 14px;
+  height: 70px;
+  width: auto;
+}
+.header .header-navigation a {
+  font-size: 26px;
+  color: white;
+}
+.header .header-navigation a:hover {
+  text-decoration: none;
 }
 .mosaic-nav {
   position: relative;
@@ -97,13 +130,37 @@
 .content {
   margin-top: 30px;
 }
+.footer--pre {
+  position: relative;
+}
+.footer {
+  position: relative;
+}
+.footer .copyright {
+  padding-top: 25px;
+}
 .footer .copyright a {
   color: #f7b731;
 }
-.footer .links {
+.footer ul {
   margin: 0;
-  padding: 0;
+  padding: 15px 0 0 10px;
   list-style: none;
+}
+.footer ul li {
+  height: 40px;
+}
+.footer ul li a {
+  color: white;
+  text-decoration: underline dotted;
+}
+.footer ul.footer-donations li span {
+  margin-top: 10px;
+  width: 40px;
+}
+.footer ul.footer-contact-list svg {
+  margin-right: 20px;
+  width: 20px;
 }
 .jumbotron-with-bg {
   padding-top: 0rem;
